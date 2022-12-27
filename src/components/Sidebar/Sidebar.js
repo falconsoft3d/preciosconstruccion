@@ -18,17 +18,33 @@ function Sidebar() {
 
         <hr className="sidebar-divider"/>
         <li className="nav-item">
-            <Link href="/apus" className="nav-link">
+            <Link href="/apus-spain" className="nav-link">
                     <i className="fas fa-fw fa-chart-area"></i>
-                <span>APUS</span>
+                <span>APUS España</span>
             </Link> 
         </li>
 
         <hr className="sidebar-divider"/>
         <li className="nav-item">
-            <Link href="/blog" className="nav-link">
+            <Link href="/apus-chile" className="nav-link">
                     <i className="fas fa-fw fa-chart-area"></i>
-                <span>Blog</span>
+                <span>APUS Chile</span>
+            </Link> 
+        </li>
+
+        <hr className="sidebar-divider"/>
+        <li className="nav-item">
+            <Link href="/grupos-apus" className="nav-link">
+                    <i className="fas fa-fw fa-chart-area"></i>
+                <span>Grupos APUs</span>
+            </Link> 
+        </li>
+
+        <hr className="sidebar-divider"/>
+        <li className="nav-item">
+            <Link href="/grupos-apus" className="nav-link">
+                    <i className="fas fa-fw fa-chart-area"></i>
+                <span>SubGrupo APUs</span>
             </Link> 
         </li>
 
