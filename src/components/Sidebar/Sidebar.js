@@ -41,6 +41,14 @@ function Sidebar() {
             </Link> 
         </li>
 
+        <hr className="sidebar-divider"/>
+        <li className="nav-item">
+            <Link href="/documentacion-api" className="nav-link">
+                    <i className="fas fa-fw fa-chart-area"></i>
+                <span>Documentacion Api</span>
+            </Link> 
+        </li>
+
         
         <hr className="sidebar-divider"/>
         <li className="nav-item">
