@@ -44,9 +44,9 @@ function Sidebar() {
         
         <hr className="sidebar-divider"/>
         <li className="nav-item">
-            <Link href="/about" className="nav-link">
+            <Link href="/contact" className="nav-link">
                     <i className="fas fa-fw fa-chart-area"></i>
-                <span>Acerca De</span>
+                <span>Contactar</span>
             </Link> 
         </li>
 

@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function RightNavbar() {
   return (
@@ -71,7 +72,7 @@ export default function RightNavbar() {
                                     </div>
                                     <div>
                                         <div className="small text-gray-500">December 2, 2019</div>
-                                        Spending Alert: We've noticed unusually high spending for your account.
+                                        Spending Alert: Weve noticed unusually high spending for your account.
                                     </div>
                                 </a>
                                 <a className="dropdown-item text-center small text-gray-500" href="#">Show All Alerts</a>
@@ -94,19 +95,20 @@ export default function RightNavbar() {
                                 </h6>
                                 <a className="dropdown-item d-flex align-items-center" href="#">
                                     <div className="dropdown-list-image mr-3">
-                                        <img className="rounded-circle" src="img/undraw_profile_1.svg"
+                                            
+                                        <Image className="rounded-circle" src="img/undraw_profile_1.svg"
                                             alt="..."/>
                                         <div className="status-indicator bg-success"></div>
                                     </div>
                                     <div className="font-weight-bold">
                                         <div className="text-truncate">Hi there! I am wondering if you can help me with a
-                                            problem I've been having.</div>
+                                            problem Ive been having.</div>
                                         <div className="small text-gray-500">Emily Fowler · 58m</div>
                                     </div>
                                 </a>
                                 <a className="dropdown-item d-flex align-items-center" href="#">
                                     <div className="dropdown-list-image mr-3">
-                                        <img className="rounded-circle" src="img/undraw_profile_2.svg"
+                                        <Image className="rounded-circle" src="img/undraw_profile_2.svg"
                                             alt="..."/>
                                         <div className="status-indicator"></div>
                                     </div>
@@ -118,25 +120,25 @@ export default function RightNavbar() {
                                 </a>
                                 <a className="dropdown-item d-flex align-items-center" href="#">
                                     <div className="dropdown-list-image mr-3">
-                                        <img className="rounded-circle" src="img/undraw_profile_3.svg"
+                                        <Image className="rounded-circle" src="img/undraw_profile_3.svg"
                                             alt="..."/>
                                         <div className="status-indicator bg-warning"></div>
                                     </div>
                                     <div>
-                                        <div className="text-truncate">Last month's report looks great, I am very happy with
+                                        <div className="text-truncate">Last months report looks great, I am very happy with
                                             the progress so far, keep up the good work!</div>
                                         <div className="small text-gray-500">Morgan Alvarez · 2d</div>
                                     </div>
                                 </a>
                                 <a className="dropdown-item d-flex align-items-center" href="#">
                                     <div className="dropdown-list-image mr-3">
-                                        <img className="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
+                                        <Image className="rounded-circle" src="https://source.unsplash.com/Mv9hjnEUHR4/60x60"
                                             alt="..."/>
                                         <div className="status-indicator bg-success"></div>
                                     </div>
                                     <div>
                                         <div className="text-truncate">Am I a good boy? The reason I ask is because someone
-                                            told me that people say this to all dogs, even if they aren't good...</div>
+                                            told me that people say this to all dogs, even if they arent good...</div>
                                         <div className="small text-gray-500">Chicken the Dog · 2w</div>
                                     </div>
                                 </a>
@@ -151,7 +153,7 @@ export default function RightNavbar() {
                             <a className="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span className="mr-2 d-none d-lg-inline text-gray-600 small">Douglas McGee</span>
-                                <img className="img-profile rounded-circle"
+                                <Image className="img-profile rounded-circle" prop="rounded-circle"
                                     src="img/undraw_profile.svg"/>
                             </a>
                             {/* <!-- Dropdown - User Information --> */}
