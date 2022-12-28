@@ -26,14 +26,6 @@ function Sidebar() {
 
         <hr className="sidebar-divider"/>
         <li className="nav-item">
-            <Link href="/apus-chile" className="nav-link">
-                    <i className="fas fa-fw fa-chart-area"></i>
-                <span>APUS Chile</span>
-            </Link> 
-        </li>
-
-        <hr className="sidebar-divider"/>
-        <li className="nav-item">
             <Link href="/grupos-apus" className="nav-link">
                     <i className="fas fa-fw fa-chart-area"></i>
                 <span>Grupos APUs</span>
