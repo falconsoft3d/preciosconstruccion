@@ -6,17 +6,17 @@ export default function Apus({apus}) {
       <BaseLayout>
 
 
-<h1 class="h3 mb-2 text-gray-800">APUs España</h1>
-<p class="mb-4">Analisis precios unitarios españa.</p>
+<h1 className="h3 mb-2 text-gray-800">APUs España</h1>
+<p className="mb-4">Analisis precios unitarios españa.</p>
 
 
-<div class="card shadow mb-4">
-    <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">Apus España</h6>
+<div className="card shadow mb-4">
+    <div className="card-header py-3">
+        <h6 className="m-0 font-weight-bold text-primary">Apus España</h6>
     </div>
-    <div class="card-body">
-        <div class="table-responsive">
-            <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+    <div className="card-body">
+        <div className="table-responsive">
+            <table className="table table-bordered" id="dataTable" width="100%" cellSpacing="0">
                 <thead>
                     <tr>
                         <th>Código</th>
