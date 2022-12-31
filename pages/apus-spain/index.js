@@ -1,4 +1,5 @@
 import BaseLayout from '../../src/components/Layout/BaseLayout'
+import Link from 'next/link'
 
 export default function Apus({apus}) {
 
@@ -32,7 +33,7 @@ export default function Apus({apus}) {
                           if (item.type === "2") {                
                           return (
                             <tr key={index}>
-                              <td>{item.code}</td>
+                              <td><Link href={"/apus-spain/"+item.code}>{item.code}</Link></td>
                               <td>{item.name}</td>
                               <td>{item.uom_id}</td>
                               <td>{item.price}</td>
