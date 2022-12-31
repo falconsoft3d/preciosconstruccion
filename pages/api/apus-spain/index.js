@@ -4,10 +4,12 @@ export default async function handler(req, res) {
     await fetch(target).then(function (response) {
         let reader = response.body.getReader();
         let decoder = new TextDecoder('utf-8');
+        console.log("A");
         return reader.read().then(function (result) {
              return decoder.decode(result.value);
          });
     }).then(function (csv) {
+        console.log("B");
         let lines = csv.split("\n");
         let result = [];
         let headers = lines[0].split(",");
