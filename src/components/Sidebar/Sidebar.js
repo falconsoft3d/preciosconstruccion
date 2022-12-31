@@ -24,7 +24,7 @@ function Sidebar() {
             </Link> 
         </li>
 
-        <hr className="sidebar-divider"/>
+        {/* <hr className="sidebar-divider"/>
         <li className="nav-item">
             <Link href="/grupos-apus" className="nav-link">
                     <i className="fas fa-fw fa-chart-area"></i>
@@ -38,7 +38,7 @@ function Sidebar() {
                     <i className="fas fa-fw fa-chart-area"></i>
                 <span>SubGrupo APUs</span>
             </Link> 
-        </li>
+        </li> */}
 
 
         <hr className="sidebar-divider"/>

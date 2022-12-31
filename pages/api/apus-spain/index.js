@@ -5,8 +5,8 @@ export default async function handler(req, res) {
         let reader = response.body.getReader();
         let decoder = new TextDecoder('utf-8');
         return reader.read().then(function (result) {
-            return decoder.decode(result.value);
-        });
+             return decoder.decode(result.value);
+         });
     }).then(function (csv) {
         let lines = csv.split("\n");
         let result = [];
@@ -21,7 +21,7 @@ export default async function handler(req, res) {
             }
             result.push(obj);
         }
-        // console.log("counter:", counter);
+        console.log("counter:", counter);
         res.status(200).json(result);
         
     });
