@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import BaseLayout from '../../src/components/Layout/BaseLayout'
 
 export default function Apus({apus}) {
@@ -29,6 +28,8 @@ export default function Apus({apus}) {
                 <tbody>
                   {
                      apus.map((item, index) => {
+                          // filtrer by type
+                          if (item.type === "2") {                
                           return (
                             <tr key={index}>
                               <td>{item.code}</td>
@@ -37,6 +38,7 @@ export default function Apus({apus}) {
                               <td>{item.price}</td>
                             </tr>)
                            }
+                        }
                       )}
                 </tbody>
             </table>

@@ -21,7 +21,7 @@ export default async function handler(req, res) {
             }
             result.push(obj);
         }
-        console.log("counter:", counter);
+        // console.log("counter:", counter);
         res.status(200).json(result);
         
     });
